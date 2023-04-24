@@ -24,8 +24,6 @@ function Header() {
                     </Typography>
                     <Button color="inherit" sx={{ mr: 4 }}>Sobre Nós</Button>
                     <Button color="inherit" sx={{ mr: 1 }}>Contatos</Button>
-                    <Button color="inherit" sx={{ mr: 1 }}>Contatos</Button>
-                    <Button color="inherit" sx={{ mr: 1 }}>Contatos</Button>
                 </Toolbar>
             </AppBar>
         </Box>
