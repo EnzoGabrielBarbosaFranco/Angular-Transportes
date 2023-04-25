@@ -1,31 +1,21 @@
+// import Box from '@mui/material/Box';
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
 
 function Header() {
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="fixed" style={{backgroundColor: "#ff751a"}}>
-                <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu" 
-                        sx={{ mr: 4 }}>
-
-                    </IconButton>
-                    <Typography variant="h5" component="div" sx={{ flexGrow: 1 }} style={{color: "black"}}>
-                        Angular Transportes Premium
-                    </Typography>
-                    <Button color="inherit" sx={{ mr: 4 }}>Sobre Nós</Button>
-                    <Button color="inherit" sx={{ mr: 1 }}>Contatos</Button>
-                </Toolbar>
-            </AppBar>
-        </Box>
+        <AppBar component="nav" style={{backgroundColor: "#ff751a"}}>
+            <Toolbar>
+  
+                <Typography variant="h5" component="div" sx={{ flexGrow: 1, ml: 4 }} style={{color: "black"}}>
+                    Angular Transportes Premium
+                </Typography>
+                <Button color="inherit" sx={{ mr: 4 }}>Sobre Nós</Button>
+                <Button color="inherit" sx={{ mr: 1 }}>Contatos</Button>
+            </Toolbar>
+        </AppBar>
     );
 }
 export default Header;
