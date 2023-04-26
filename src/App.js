@@ -5,9 +5,9 @@ import SobreNos from './conteudo/SobreNos';
 
 function App() {
   return (
-    <Box  sx={{ display: 'flex' }}>
-      <CssBaseline />
-      <Header />
+    <Box sx={{  }}>
+      <CssBaseline/>
+      <Header/>
       <SobreNos/>
     </Box>
   );
