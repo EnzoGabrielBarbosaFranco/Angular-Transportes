@@ -5,18 +5,15 @@ function SobreNos() {
         color: "white",
         backgroundColor: "#5570B4",
         padding: "10px",
-        fontFamily: "Arial"
     };
     const texto = {
         color: "white",
         backgroundColor: "#5570B4",
         padding: "150px",
-        fontFamily: "Sans-Serif",
     };
     const missao = {
         color: "white",
         backgroundColor: "#5570B4",
-        fontFamily: "Sans-Serif"
     };
     return (
         <Box component="main" fullWidth sx={{}}>
@@ -26,7 +23,7 @@ function SobreNos() {
             </Typography>
             <Typography style={missao} textAlign={"center"} sx={{ fontSize: 18, lineHeight: 1.35 }}>Nossa Missão:
             </Typography>
-            <Typography style={texto} textAlign={"center"} sx={{ fontSize: 15, lineHeight: 1.35 }}>
+            <Typography style={texto} textAlign={"center"} sx={{ fontSize: 15, lineHeight: 1.5 }}>
                 Aprendemos que um ótimo serviço começa e termina com profissionais experientes e amigáveis, o que explica
                 <br />
                 nosso rigoroso processo de contratação. Acreditamos que nossa equipe seja a melhor do setor e temos total

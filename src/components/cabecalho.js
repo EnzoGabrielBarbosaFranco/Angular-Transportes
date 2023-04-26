@@ -9,11 +9,11 @@ function Header() {
         <AppBar component="nav" style={{backgroundColor: "#ff751a"}}>
             <Toolbar>
   
-                <Typography variant="h5" component="div" sx={{ flexGrow: 1, ml: 4 }} style={{color: "black"}}>
+                <Typography variant="h4" component="div" fontFamily={'Train One'} sx={{ flexGrow: 1, ml: 4 }} padding={"35px"} style={{color: "black"}}>
                     Angular Transportes Premium
                 </Typography>
-                <Button color="inherit" sx={{ mr: 4 }}>Sobre Nós</Button>
-                <Button color="inherit" sx={{ mr: 1 }}>Contatos</Button>
+                <Button color="inherit" sx={{ mr: 4, fontSize: 15 }} fontFamily={'Train One'}>Sobre Nós</Button>
+                <Button color="inherit" sx={{ mr: 1, fontSize: 15 }} fontFamily={'Train One'}>Contatos</Button>
             </Toolbar>
         </AppBar>
     );
