@@ -1,4 +1,4 @@
-import { Box, Toolbar, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 function SobreNos() {
     const sobrenos = {
@@ -19,8 +19,7 @@ function SobreNos() {
         backgroundColor: "#5570B4",
     };
     return (
-        <Box component="main" fullWidth sx={{}}>
-            <Toolbar />
+        <Box component="main" fullWidth sx={{  }}>
             <Typography variant="h4" textAlign="center" style={sobrenos} marginTop={20} sx={{ fontSize: 40 }}>
                 Saiba mais sobre nós
             </Typography>
