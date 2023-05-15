@@ -6,7 +6,7 @@ function SobreNos() {
         backgroundColor: "#5570B4",
         padding: "40px",
         paddingTop: "80px",
-        marginTop: "-240px" // Adicionando margem negativa para mover a div para cima
+        marginTop: "-290px" // Adicionando margem negativa para mover a div para cima
     };
     const texto = {
         color: "white",

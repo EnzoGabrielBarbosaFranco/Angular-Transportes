@@ -3,6 +3,7 @@ import Header from './components/cabecalho';
 import SobreNos from './conteudo/SobreNos';
 import BotaoContato from './conteudo/BotaoContatos';
 import Cards from './conteudo/Cards';
+import Rodape from './rodape/Rodape'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Cards/>
       <SobreNos/>
+      <Rodape/>
       <BotaoContato/>
     </Box>
   );

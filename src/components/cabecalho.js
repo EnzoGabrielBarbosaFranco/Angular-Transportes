@@ -25,6 +25,10 @@ export default function Header() {
     sobreNosDiv.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth', });
+  };
+
   const handleClose = () => {
     setOpen(false);
   };
@@ -40,8 +44,13 @@ export default function Header() {
   return (
     <AppBar component="nav" style={{ backgroundColor: "#ff751a" }}>
       <Toolbar>
-        <Typography variant="h4" component="div" fontFamily={'Train One'} sx={{ flexGrow: 1, ml: 4 }} padding={"35px"} style={{ color: "black" }}>
-            Angular Transportes Premium
+        <Typography
+          variant="h4"
+          component="button"
+          fontFamily={'Train One'}
+          sx={{ flexGrow: 1, mr: 93, padding: "35px", color: "black", border: "none", background: "none", cursor: "pointer" }}
+          onClick={handleScrollToTop}>
+          Angular Transportes Premium
         </Typography>
 
         <Button color="inherit" sx={{ mr: 2, fontSize: 15 }} fontFamily={'Train One'} onClick={handleScrollToSobreNos}>
@@ -89,7 +98,7 @@ export default function Header() {
         aria-describedby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">
-          {"Nos mande um email:"}
+          {"Entre em contato conosco:"}
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description" sx={{ fontSize: 20 }} textAlign={'center'}>
@@ -97,6 +106,6 @@ export default function Header() {
           </DialogContentText>
         </DialogContent>
       </Dialog>
-    </AppBar>
+    </AppBar >
   );
 }
