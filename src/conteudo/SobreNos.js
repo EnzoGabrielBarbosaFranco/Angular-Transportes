@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 
 function SobreNos() {
     const sobrenos = {
@@ -6,7 +6,7 @@ function SobreNos() {
         backgroundColor: "#5570B4",
         padding: "40px",
         paddingTop: "80px",
-
+        marginTop: "-240px" // Adicionando margem negativa para mover a div para cima
     };
     const texto = {
         color: "white",
@@ -19,7 +19,7 @@ function SobreNos() {
         backgroundColor: "#5570B4",
     };
     return (
-        <Box component="main" fullWidth sx={{  }}>
+        <div id="sobre-nos">
             <Typography variant="h4" textAlign="center" style={sobrenos} marginTop={20} sx={{ fontSize: 40 }}>
                 Saiba mais sobre nós
             </Typography>
@@ -42,8 +42,7 @@ function SobreNos() {
                 <br />
                 expectativas.
             </Typography>
-        </Box>
+        </div>
     );
-
 }
 export default SobreNos;

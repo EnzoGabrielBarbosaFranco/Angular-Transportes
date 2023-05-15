@@ -20,6 +20,11 @@ export default function Header() {
     setOpen(true);
   };
 
+  const handleScrollToSobreNos = () => {
+    const sobreNosDiv = document.getElementById('sobre-nos');
+    sobreNosDiv.scrollIntoView({ behavior: 'smooth' });
+  };
+
   const handleClose = () => {
     setOpen(false);
   };
@@ -36,10 +41,10 @@ export default function Header() {
     <AppBar component="nav" style={{ backgroundColor: "#ff751a" }}>
       <Toolbar>
         <Typography variant="h4" component="div" fontFamily={'Train One'} sx={{ flexGrow: 1, ml: 4 }} padding={"35px"} style={{ color: "black" }}>
-          Angular Transportes Premium
+            Angular Transportes Premium
         </Typography>
 
-        <Button color="inherit" sx={{ mr: 2, fontSize: 15 }} fontFamily={'Train One'}>
+        <Button color="inherit" sx={{ mr: 2, fontSize: 15 }} fontFamily={'Train One'} onClick={handleScrollToSobreNos}>
           <Box component="span" sx={{ mr: 2, mt: 1 }}>
             <InfoIcon />
           </Box>
@@ -47,14 +52,14 @@ export default function Header() {
         </Button>
 
         <Button color="inherit" sx={{ mr: 3, fontSize: 15 }} fontFamily={'Train One'} onClick={handleClickOpen}>
-        <Box component="span" sx={{ mr: 2, mt: 1 }}>
+          <Box component="span" sx={{ mr: 2, mt: 1 }}>
             <PhoneIcon />
           </Box>
           Telefone
         </Button>
 
         <Button color="inherit" sx={{ mr: 1, fontSize: 15 }} fontFamily={'Train One'} onClick={handleOpenEmail}>
-        <Box component="span" sx={{ mr: 2, mt: 1 }}>
+          <Box component="span" sx={{ mr: 2, mt: 1 }}>
             <SupportAgentIcon />
           </Box>
           Fale Conosco

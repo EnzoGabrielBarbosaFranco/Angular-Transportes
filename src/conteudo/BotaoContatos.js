@@ -8,7 +8,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const actions = [
   { icon: <InstagramIcon />, name: 'Instagram', url: 'https://www.instagram.com/angulartransportespremium/' },
-  { icon: <WhatsAppIcon />, name: 'WhatsApp', url: 'https://api.whatsapp.com/send?phone=5555679993999&text=Ol%C3%A1' },
+  { icon: <WhatsAppIcon />, name: 'WhatsApp', url: 'https://wa.me/5567999399900' },
   { icon: <DirectionsIcon />, name: 'Localização', url: 'https://maps.app.goo.gl/ksADp3F8TZLTcZNW7' },
 ];
 

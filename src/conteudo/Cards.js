@@ -23,12 +23,11 @@ function Cards() {
                 }}>
                 Serviços
             </Typography>
-   <img src="../" alt="" />
-            <Card sx={{ backgroundColor: '#8f8f8f' , marginBottom: '16px' }}>
+            <img src="../" alt="" />
+            <Card sx={{ backgroundColor: '#8f8f8f', marginBottom: '36px' }}>
                 <CardMedia
                     sx={{ height: 280 }}
                     image="./imagens/imagen-caminhao.webp"
-                    title="assistencia-rodoviaria"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div" textAlign="center">
@@ -39,11 +38,10 @@ function Cards() {
                     </Typography>
                 </CardContent>
             </Card>
-            <Card sx={{ backgroundColor: '#8f8f8f', marginBottom: '16px' }}>
+            <Card sx={{ backgroundColor: '#8f8f8f', marginBottom: '36px' }}>
                 <CardMedia
                     sx={{ height: 280 }}
                     image="../imagens/imagen-caminhao.webp"
-                    title="assistencia-rodoviaria"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div" textAlign="center">
@@ -56,11 +54,10 @@ function Cards() {
                     </Typography>
                 </CardContent>
             </Card>
-            <Card sx={{ backgroundColor: '#8f8f8f' , marginBottom: '16px' }}>
+            <Card sx={{ backgroundColor: '#8f8f8f', marginBottom: '36px' }}>
                 <CardMedia
                     sx={{ height: 280 }}
                     image="../imagens/imagen-caminhao.webp"
-                    title="assistencia-rodoviaria"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div" textAlign="center">
