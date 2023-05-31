@@ -7,4 +7,5 @@ https://projeto-angulartp.netlify.app
 <br>
 <strong> Sobre o Projeto: </strong> 
 <br>
+<br>
 Site desenvolvido para a empresa Angular Transportes Premium, usando React e Material UI.
