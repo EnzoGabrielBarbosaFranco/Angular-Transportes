@@ -2,7 +2,7 @@
 <br>
 <strong> Confira o Site em Desenvolvimento: </strong>
 <br>
-https://main--astounding-strudel-072c67.netlify.app 
+https://projeto-angulartp.netlify.app
 <br>
 <br>
 <strong> Sobre o Projeto: </strong> 
