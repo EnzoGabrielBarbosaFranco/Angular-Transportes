@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Angular Transportes Premium — Guincho e transporte de veículos em Campo Grande/MS. Atendimento 24h, rápido e seguro." />
   <title>Angular Transportes Premium | Guincho Campo Grande MS</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -16,7 +16,11 @@
 <header id="header">
   <div class="header-inner">
     <a href="#hero" class="logo-wrap">
-      <img src="logo.svg" alt="Angular Transportes Premium" />
+      <img src="logo.png" alt="Angular Transportes Premium" />
+      <div class="logo-text">
+        <span class="logo-title">Angular</span>
+        <span class="logo-subtitle">Transportes Premium</span>
+      </div>
     </a>
     <nav>
       <a href="#servicos">Serviços</a>
@@ -48,7 +52,7 @@
   <div class="hero-stripe"></div>
   <div class="hero-content container">
     <div class="hero-text">
-      <div class="badge"><span>&#128308;</span> Atendimento 24 Horas</div>
+      <div class="badge"><span>&#128994;</span> Atendimento 24 Horas</div>
       <h1 class="hero-title">Guincho &amp;<span>Transporte</span>de Veiculos</h1>
       <p class="hero-desc">Servico premium de guincho e transporte de veículos em Campo Grande e todo o Mato Grosso do Sul. Rápido, seguro e confiável na hora que você precisar.</p>
       <div class="hero-ctas">
@@ -61,17 +65,19 @@
     </div>
     <div class="hero-visual">
       <svg class="hero-logo-big" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="splitGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="50%" stop-color="#FF6B00" />
+            <stop offset="50%" stop-color="#FFFFFF" />
+          </linearGradient>
+        </defs>
+
         <circle cx="150" cy="150" r="148" fill="rgba(255,107,0,.06)" stroke="rgba(255,107,0,.18)" stroke-width="1.5"/>
         <circle cx="150" cy="150" r="120" fill="rgba(13,27,94,.3)" stroke="rgba(255,255,255,.05)" stroke-width="1"/>
-        <polygon points="50,260 90,260 150,60 120,60" fill="#FF6B00"/>
-        <polygon points="250,260 210,260 150,60 180,60" fill="rgba(255,255,255,0.9)"/>
-        <rect x="88" y="178" width="124" height="18" fill="#FF6B00" rx="2"/>
-        <rect x="76" y="230" width="6" height="16" fill="white" opacity=".8" rx="2" transform="rotate(-20,79,238)"/>
-        <rect x="88" y="200" width="6" height="16" fill="white" opacity=".8" rx="2" transform="rotate(-20,91,208)"/>
-        <rect x="100" y="168" width="6" height="14" fill="white" opacity=".8" rx="2" transform="rotate(-20,103,175)"/>
-        <circle cx="150" cy="55" r="10" fill="#FF6B00" opacity=".9"/>
-        <circle cx="150" cy="55" r="18" fill="rgba(255,107,0,.2)"/>
         <circle cx="150" cy="150" r="145" fill="none" stroke="rgba(255,107,0,.08)" stroke-width="1" stroke-dasharray="4 8"/>
+
+        <text x="150" y="250" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="900" font-size="280" fill="url(#splitGradient)">A</text>
+
         <text x="150" y="294" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="13" fill="rgba(255,255,255,.5)" letter-spacing="4">TRANSPORTES PREMIUM</text>
       </svg>
     </div>
@@ -91,7 +97,7 @@
   <div class="container">
     <div class="reveal">
       <p class="section-label">O que oferecemos</p>
-      <h2 class="section-title">Nossos Servios</h2>
+      <h2 class="section-title">Nossos Serviços</h2>
       <p class="section-sub">Soluções completas para guincho e transporte de veículos, com agilidade e maxima segurança para o seu patrimônio.</p>
     </div>
     <div class="services-grid">
@@ -102,12 +108,12 @@
       </div>
       <div class="service-card reveal reveal-delay-2">
         <div class="service-icon"><svg class="icon-svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF6B00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11a2 2 0 012 2v3"/><rect x="9" y="11" width="14" height="10" rx="1"/><circle cx="12" cy="21" r="1"/><circle cx="20" cy="21" r="1"/></svg></div>
-        <h3 class="service-title">Transporte de Veiculos</h3>
+        <h3 class="service-title">Transporte de Veículos</h3>
         <p class="service-desc">Transporte seguro de carros, motos e veículos especiais entre cidades, com plataforma fechada ou aberta conforme sua necessidade.</p>
       </div>
       <div class="service-card reveal reveal-delay-3">
         <div class="service-icon"><svg class="icon-svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF6B00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
-        <h3 class="service-title">Socorro Mecanico</h3>
+        <h3 class="service-title">Socorro Mecânico</h3>
         <p class="service-desc">Troca de pneu, recarga de bateria, abastecimento emergencial e suporte técnico básico para resolver seu problema no local.</p>
       </div>
       <div class="service-card reveal reveal-delay-1">
@@ -117,7 +123,7 @@
       </div>
       <div class="service-card reveal reveal-delay-2">
         <div class="service-icon"><svg class="icon-svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF6B00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-        <h3 class="service-title">Veiculos de Luxo e Especiais</h3>
+        <h3 class="service-title">Veículos de Luxo e Especiais</h3>
         <p class="service-desc">Plataformas especificas e cuidado redobrado para carros de alto valor, esportivos, clássicos e motos de coleção.</p>
       </div>
       <div class="service-card reveal reveal-delay-3">
@@ -135,11 +141,11 @@
     <div class="reveal" style="text-align:center">
       <p class="section-label">Simples e rapido</p>
       <h2 class="section-title">Como Funciona</h2>
-      <p class="section-sub" style="margin:0 auto">Em apenas 4 passos simples, seu veículo esta em segurança. Atendimento agil e descomplicado.</p>
+      <p class="section-sub" style="margin:0 auto">Em apenas 4 passos simples, seu veículo esta em segurança. Atendimento ágil e descomplicado.</p>
     </div>
     <div class="steps-wrap">
       <div class="step-card reveal reveal-delay-1"><div class="step-num">1</div><h4 class="step-title">Entre em Contato</h4><p class="step-desc">Ligue ou mande mensagem no WhatsApp informando sua localização e o problema com o veículo.</p></div>
-      <div class="step-card reveal reveal-delay-2"><div class="step-num">2</div><h4 class="step-title">Orcamento Rápido</h4><p class="step-desc">Em minutos você recebe o valor do servico, transparente e sem surpresas. Pagamento facilitado.</p></div>
+      <div class="step-card reveal reveal-delay-2"><div class="step-num">2</div><h4 class="step-title">Orçamento Rápido</h4><p class="step-desc">Em minutos você recebe o valor do serviço, transparente e sem surpresas. Pagamento facilitado.</p></div>
       <div class="step-card reveal reveal-delay-3"><div class="step-num">3</div><h4 class="step-title">Despacho Imediato</h4><p class="step-desc">Nossa equipe e despachada imediatamente para seu endereco com equipamentos adequados ao seu veículo.</p></div>
       <div class="step-card reveal reveal-delay-4"><div class="step-num">4</div><h4 class="step-title">Entrega Segura</h4><p class="step-desc">Seu veículo e transportado com total cuidado e entregue no destino indicado com comprovante.</p></div>
     </div>
@@ -166,7 +172,7 @@
       <div class="why-visual reveal">
         <div class="why-card-big">
           <div class="wc-icon">&#128664;</div>
-          <h3>Seu Veiculo em Boas Maos</h3>
+          <h3>Seu Veículo em Boas Mãos</h3>
           <p>Seja um carro popular, veículo de luxo, moto ou utilitario tratamos cada veículo com o máximo de cuidado e responsabilidade como se fosse nosso.</p>
           <div class="why-badge-wrap">
             <span class="why-badge">Segurado</span>
@@ -285,7 +291,13 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
-    <div class="footer-logo"><img src="logo.svg" alt="Angular Transportes Premium" /></div>
+    <div class="footer-logo">
+      <img src="logo.png" alt="Angular Transportes Premium" />
+      <div class="logo-text">
+        <span class="logo-title">Angular</span>
+        <span class="logo-subtitle">Transportes Premium</span>
+      </div>
+    </div>
     <p class="footer-copy">&#169; 2026 Angular Transportes Premium &middot; Campo Grande, MS</p>
     <div class="footer-links"><a href="#servicos">Serviços</a><a href="#contato">Contato</a><a href="https://wa.me/5567999399900" target="_blank">WhatsApp</a></div>
   </div>
